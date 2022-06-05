@@ -4,7 +4,7 @@ body, .tooltip
 }
 
 .header-bar {
-  background-color: #292929;
+  background-color: #000000;
 }
 
 .container--narrow {
@@ -41,32 +41,33 @@ body, .tooltip
 }
 
 .form-control-title {
-  font-size: 2rem;
+  color: black;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 .body-content {
   font-size: 1.2rem;
   line-height: 1.75;
-  color: #292929;
+  color: #000000;
 }
 
 .body-content p,
 .body-content ul,
 .body-content ol {
-  margin-bottom: 1.75rem
+  margin-bottom: 1.75rem;
 }
 
 .input-dark {
-  background-color: #444;
+  background-color: rgb(255, 255, 255);
   border-color: transparent;
-  color: #FFFFFF;
+  color: #ff0000;
 }
 
 .input-dark:focus {
-  color: #FFFFFF;
-  background-color: #555;
-  border-color: #80bdff;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  border-color: #ff0000;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }
@@ -167,7 +168,9 @@ textarea.tall-textarea {
   flex: 1;
   color: #007bff;
 }
-
+h2 strong{
+  text-transform: uppercase;
+}
 .live-search-results {
   opacity: 0;
   transition: all .3s ease-out;
